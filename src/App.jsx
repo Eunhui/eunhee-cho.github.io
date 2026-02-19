@@ -15,7 +15,7 @@ const C = {
   white:     "#e6f1ff",
 };
 
-const ROLES = ["Software Engineer.","Data Platform Engineer.","Full Stack Developer.","ML Enthusiast."];
+const ROLES = ["Software Engineer.","Backend Engineer","Data Engineer.","ML Enthusiast."];
 
 function useTyping(strings, speed=80, pause=2000) {
   const [out,setOut]=useState(""); const [si,setSi]=useState(0); const [ci,setCi]=useState(0); const [del,setDel]=useState(false);
