@@ -16,8 +16,8 @@ const C = {
 
 const ROLES = [
   "Software Engineer.",
-  "Data Platform Engineer.",
-  "Full Stack Developer.",
+  "Backend Engineer",
+  "Data Engineer.",
   "ML Enthusiast.",
 ];
 
