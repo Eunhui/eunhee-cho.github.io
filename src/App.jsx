@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import PixelSilhouette from "./PixelSilhouette";
-
+import photo from './photo.jpg';
 const C = {
   bg:        "#0a192f",
   bgLight:   "#112240",
@@ -177,7 +177,7 @@ function About() {
         </div>
         <div style={{display:"flex",justifyContent:"center",alignItems:"flex-start"}}>
           <div style={{width:"280px",height:"300px",borderRadius:"8px",overflow:"hidden",border:`2px solid ${C.mint}`,boxShadow:`8px 8px 0 ${C.mintBorder}`,position:"relative",top:"12px",left:"12px"}}>
-            <img src="/src/photo.jpg" alt="Eunhee Cho" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"top",filter:"grayscale(10%)"}}/>
+            <img src={photo} alt="Eunhee Cho" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"top",filter:"grayscale(10%)"}}/>
           </div>
         </div>
       </div>
