@@ -97,7 +97,7 @@ function Hero() {
   const typed=useTyping(ROLES); const mobile=useIsMobile();
   return(
     <section id="hero" style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",padding:mobile?"80px 24px 40px":"0 120px",maxWidth:"1200px",margin:"0 auto",gap:"40px",flexDirection:mobile?"column":"row"}}>
-      {!mobile&&<div style={{flexShrink:0,width:"360px"}}><PixelSilhouette/></div>}
+      <div style={{flexShrink:0,width:"360px"}}><PixelSilhouette/></div>
       <div style={{textAlign:mobile?"center":"left"}}>
         <p style={{color:C.mint,fontFamily:"'JetBrains Mono',monospace",fontSize:mobile?"13px":"16px",marginBottom:"16px"}}>Hi, my name is</p>
         <h1 style={{fontSize:mobile?"clamp(36px,10vw,52px)":"clamp(36px,6vw,72px)",fontWeight:700,color:C.white,margin:"0 0 8px",lineHeight:1.1,fontFamily:"'DM Sans',sans-serif",letterSpacing:"-0.02em"}}>Eunhee Cho.</h1>
